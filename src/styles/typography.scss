@@ -1,0 +1,40 @@
+.title{
+    font-family: $font-primary;
+    font-weight: 700;
+    line-height: 1.6;
+    color: $color-black;
+
+    &.one{
+        font-size: clamp(1.5rem, 3vw, 2rem);
+    }
+
+    &.two{
+        font-size: clamp(1.4rem, 3vw, 1.75rem);
+    }
+
+    &.center{
+        text-align: center;
+    }
+}
+
+.money{
+    font-family: $font-primary;
+    font-weight: 700;
+    line-height: 1.6;
+    
+    &.blue{
+        color: $color-blue1;
+    }
+
+    &.red{
+        color: $color-red;
+    }
+}
+
+.paragraph{
+    font-family: $font-primary;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $color-black;
+}

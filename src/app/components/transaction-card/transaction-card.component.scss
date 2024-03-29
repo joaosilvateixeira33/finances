@@ -1,0 +1,32 @@
+@import "../../../styles/global.scss";
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .left{
+        min-width: clamp(0px, 100%, 350px);
+
+        p{
+            margin-top: 10px;
+        }
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .paragraph{
+            text-transform: capitalize;
+        }
+
+        button{
+            color: $color-blue1;
+        }
+    }
+    
+}

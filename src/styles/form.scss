@@ -1,0 +1,40 @@
+%fieldProps {
+    width: 100%;
+    background: $color-gray;
+
+    font-family: $font-primary;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: $color-black;
+}
+
+.fieldBox {
+    width: 100%;
+
+    label{
+        display: block;
+        font-family: $font-primary;
+        font-size: 0.875rem;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+
+    input {
+        @extend %fieldProps;
+        padding: 0 20px;
+        height: 2.875rem;
+    }
+
+    select {
+        @extend %fieldProps;
+        padding: 0 20px;
+        height: 2.875rem;
+    }
+
+    textarea {
+        @extend %fieldProps;
+        resize: none;
+        padding: 15px 20px;
+        height: 6.8125rem;
+    }
+}

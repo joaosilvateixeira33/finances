@@ -1,0 +1,37 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: clamp(0.9375rem, 2vw, 1.0625rem);
+    line-height: 1.4;
+
+    text-align: center;
+
+    transition: .4s;
+
+    &.solid{
+        background: $color-blue1;
+        color: $color-white;
+
+        &:hover{
+            filter: brightness(1.1);
+        }
+    }
+
+    &.md{
+        padding: 0 20px;
+        height: 3.625rem;
+    }
+
+    &.lg{
+        padding: 0 clamp(20px, 2vw, 30px);
+        height: 4.8125rem;
+    }
+
+    &.full{
+        width: 100%;
+    }
+}
